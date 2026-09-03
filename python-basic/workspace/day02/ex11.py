@@ -51,9 +51,8 @@ for i, (k, v) in enumerate(info.items(), start=1):
 
 # ----------------------------------
 lst = 1, 2, 3  # packing
-a, b, c = (
-    lst  # unpacking : lst 원소 갯수에 안 맞추면 오류, lst가 튜플이 아니라 리스트 여도 무관
-)
+a, b, c = lst  
+# unpacking : lst 원소 갯수에 안 맞추면 오류, lst가 튜플이 아니라 리스트 여도 무관
 print(a)
 print(b)
 print(c)
